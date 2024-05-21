@@ -6,12 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Player | CodingNepal</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lightmode.css" id="theme">
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
+  <button onclick="setTheme('light')">Dark</button>
+  <button onclick="setTheme('dark')">Light</button>
   <div class="wrapper">
     <div class="top-bar">
-      <i class="material-icons">expand_more</i>
+      <div></div>
       <span>Now Playing</span>
       <i class="material-icons">more_horiz</i>
     </div>
@@ -56,6 +60,7 @@
 
   <script src="js/music-list.js"></script>
   <script src="js/script.js"></script>
+  <script src="theme-switcher.js"></script>
 
 </body>
 </html>

@@ -22,8 +22,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+    background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
   min-height: 100vh;
-  background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
 }
 .wrapper{
   width: 380px;
