@@ -1,11 +1,13 @@
 :root{
     --whitetype: #ff7480;
     --blacktype: #9f6ea3;
-    --lightblack: #515C6F;
-    --white: #ffffff;
+    --lightblack: #546e2d;
+    --white: #F6EEC9;
     --darkwhite: #cecaca;
     --pinkshadow: #ffcbdd;
     --lightbshadow: rgba(0, 0, 0, 0.364);
+    --lightgreen: #A1DD70;
+    --loader:#EE4E4E;
 }
 
 body {
@@ -16,11 +18,11 @@ body {
 
 
 .wrapper{
-    background: white;
+    background: var(--white);
     box-shadow: 0px 1px 15px black;
 }
 .main #logo {
-    color: #1d1c1c;
+    color: var(--lightblack);
 }
 .top-bar i{
     font-size: 30px;
@@ -38,15 +40,15 @@ body {
 }
 
 .song-details>p{
-    color: rgba(0, 0, 0, 0.858);
+    color:var(--lightblack);
 }
 
 .progress-area{
-    background: #f0f0f0;
+    background: var(--lightgreen);
 }
 
 .progress-area .progress-bar{
-    background: linear-gradient(90deg, var(--whitetype) 0%, var(--blacktype) 100%);
+    background: var(--lightblack);
 }
 
 .song-timer span{
@@ -54,16 +56,16 @@ body {
 }
 
 volume{
-    color: rgb(87, 86, 86)
+    color: rgb(207, 123, 123)
     
 }
 
 .volume i {
-    background: #ffffff;
+    background: #c5a4a4;
 }
 
 .volume i:hover {
-    background: rgba(109, 109, 109, 0.1);
+    background: rgba(196, 73, 73, 0.1);
 }
 
 .volume #volume_show {
@@ -72,7 +74,7 @@ volume{
 }
 
 .volume input {
-    background: rgb(196, 118, 147);
+    background: var(--lightblack);
 }
 
 input[type="range"]::-webkit-progress-value {
@@ -80,22 +82,22 @@ input[type="range"]::-webkit-progress-value {
 }
 
 input[type="range"]::-webkit-slider-thumb {
-    background: #f7f7f7;
-    border: 3px solid rgb(156, 153, 153);
+    background: var(--lightgreen);
+    border: 3px solid var(--lightblack);
 }
 
 .controls i{
-    background: linear-gradient(var(--whitetype) 0%, var(--blacktype) 100%);  
+    background: var(--lightblack);  
 }
 
 .controls .play-pause{
 
-    background: linear-gradient(var(--white) 0%, var(--darkwhite) 100%);
-    box-shadow: 0px 0px 5px var(--whitetype);
+    background: var(--lightblack);
+    box-shadow: 0px 0px 5px var(--lightgreen);
 }
 
 .play-pause::before{
-    background: linear-gradient(var(--whitetype) 0%, var(--blacktype) 100%);
+    background: var(--lightgreen);
 }
 
 .music-list{
@@ -113,11 +115,11 @@ input[type="range"]::-webkit-slider-thumb {
 
 .music-list ul li{
     color: var(--lightblack);
-    border-bottom: 1px solid #E5E5E5;
+    border-bottom: 1px solid var(--lightblack);
 }
 
 .loader .stroke{
-    background: #f1f1f1;
+    background: var(--loader);
 }
 
 @keyframes animate {
@@ -133,3 +135,44 @@ input[type="range"]::-webkit-slider-thumb {
         background: #87267a;
     }
 }
+
+#time {
+    text-shadow: 2px 2px 1px var(--lightblack);
+    color: var(--white);
+  }
+  #date {
+    text-shadow: 2px 2px 1px var(--lightblack);
+    color: var(--white);
+  }
+
+  .bi-badge-tm-fill:hover{
+    fill: red;
+    cursor: pointer;
+}
+.bi-mic-fill:hover{
+    fill: red;
+    cursor: pointer;
+}
+.bi-mic-fill{
+    fill: var(--lightblack);
+}
+.bi-badge-tm-fill{
+    fill: var(--lightblack);
+}
+.bi-volume-up-fill{
+    fill: var(--lightblack);
+}
+#volume_show{
+    color: var(--lightblack);
+}
+.bi-volume-up-fill:hover{
+    fill: red;
+}
+#quote{
+    text-shadow: 2px 2px 1px var(--lightgreen);
+    color: var(--white);
+  } 
+  #author {
+    text-shadow: 2px 2px 1px var(--lightgreen);
+    color: var(--white);
+  }

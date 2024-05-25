@@ -390,18 +390,20 @@ ul li .audio-duration{
 
 .clock-container {
     font-family: Arial, sans-serif;
-    
     text-align: center;
     top: 50%;
     margin-left: 150px;
   }
   #time {
-    text-shadow: 2px 2px 1px rgb(0, 0, 0);
     font-size: 5rem;
-    color: #ffffff;
   }
   #date {
-    text-shadow: 2px 2px 1px rgb(0, 0, 0);
     font-size: 1.5rem;
-    color: #ffffff;
+  }
+  #author{
+    margin-top: 60px;
+    font-size: 0.9rem;
+  }
+  #quote{
+    font-size: 1.5rem;
   }

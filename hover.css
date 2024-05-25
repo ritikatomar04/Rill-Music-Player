@@ -1,8 +1,9 @@
 .bi-badge-tm-fill:hover{
-    fill: red;
     cursor: pointer;
 }
 .bi-mic-fill:hover{
-    fill: red;
+    cursor: pointer;
+}
+.bi-volume-up-fill:hover{
     cursor: pointer;
 }
