@@ -1,0 +1,135 @@
+:root{
+    --whitetype: #ff7480;
+    --blacktype: #9f6ea3;
+    --lightblack: #515C6F;
+    --white: #ffffff;
+    --darkwhite: #cecaca;
+    --pinkshadow: #ffcbdd;
+    --lightbshadow: rgba(0, 0, 0, 0.364);
+}
+
+body {
+    background: url(../assets/default.gif) center center fixed;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+.wrapper{
+    background: white;
+    box-shadow: 0px 1px 15px black;
+}
+.main #logo {
+    color: #1d1c1c;
+}
+.top-bar i{
+    font-size: 30px;
+    color: var(--lightblack);
+}
+
+.top-bar span{
+    color: var(--lightblack);
+}
+
+.img-area{
+    -moz-box-shadow: 0px 6px 12px var(--lightbshadow);
+    -webkit-box-shadow: 0px 6px 12px var(--lightbshadow);
+    box-shadow: 0px 6px 12px var(--lightbshadow);
+}
+
+.song-details>p{
+    color: rgba(0, 0, 0, 0.858);
+}
+
+.progress-area{
+    background: #f0f0f0;
+}
+
+.progress-area .progress-bar{
+    background: linear-gradient(90deg, var(--whitetype) 0%, var(--blacktype) 100%);
+}
+
+.song-timer span{
+    color: var(--lightblack);
+}
+
+volume{
+    color: rgb(87, 86, 86)
+    
+}
+
+.volume i {
+    background: #ffffff;
+}
+
+.volume i:hover {
+    background: rgba(109, 109, 109, 0.1);
+}
+
+.volume #volume_show {
+    padding: 8px 12px;
+    margin: 0 5px 0 0;
+}
+
+.volume input {
+    background: rgb(196, 118, 147);
+}
+
+input[type="range"]::-webkit-progress-value {
+    background-color: #31369f;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background: #f7f7f7;
+    border: 3px solid rgb(156, 153, 153);
+}
+
+.controls i{
+    background: linear-gradient(var(--whitetype) 0%, var(--blacktype) 100%);  
+}
+
+.controls .play-pause{
+
+    background: linear-gradient(var(--white) 0%, var(--darkwhite) 100%);
+    box-shadow: 0px 0px 5px var(--whitetype);
+}
+
+.play-pause::before{
+    background: linear-gradient(var(--whitetype) 0%, var(--blacktype) 100%);
+}
+
+.music-list{
+    box-shadow: 0px -5px 10px rgba(0,0,0,0.1);
+    background: var(--white);
+}
+
+.header .row{
+    color: var(--lightblack);
+}
+
+.header #close{
+    color: var(--lightblack);
+}
+
+.music-list ul li{
+    color: var(--lightblack);
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.loader .stroke{
+    background: #f1f1f1;
+}
+
+@keyframes animate {
+    30% {
+        background: #79397d;
+    }
+
+    50% {
+        background: #93438b;
+    }
+  
+    100% {
+        background: #87267a;
+    }
+}
