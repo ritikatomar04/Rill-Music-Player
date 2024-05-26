@@ -7,3 +7,10 @@
 .bi-volume-up-fill:hover{
     cursor: pointer;
 }
+.hide {
+    display: none;
+}
+.myDIV:hover + .hide {
+    display: block;
+    color: red;
+}

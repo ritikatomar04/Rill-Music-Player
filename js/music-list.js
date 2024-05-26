@@ -13,7 +13,7 @@ let allMusic = [
     },
     {
         name: "Dekha Ek Khwab",
-        artist: "Song by Kishore Kumar and Lata Mangeshkar",
+        artist: "Song by Kishore Kumar, Lata Mangeshkar",
         img: "music-3",
         src: "music-3"
     },
