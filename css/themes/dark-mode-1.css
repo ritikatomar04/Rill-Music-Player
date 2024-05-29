@@ -1,13 +1,13 @@
-:root{
+:root {
     --whitetype: #ff7480;
     --blacktype: #9f6ea3;
-    --lightblack: #F4DFC8;
+    --lightblack: #f4dfc8;
     --white: #000000;
     --darkwhite: #cecaca;
     --pinkshadow: #ffcbdd;
     --lightbshadow: rgba(0, 0, 0, 0.364);
     --lightgreen: #000000;
-    --loader:#FF6C22;
+    --loader: #ff6c22;
 }
 
 body {
@@ -16,8 +16,7 @@ body {
     background-repeat: repeat;
 }
 
-
-.wrapper{
+.wrapper {
     background: var(--white);
     box-shadow: 1px 1px 15px black;
 }
@@ -25,40 +24,39 @@ body {
 .main #logo {
     color: var(--lightblack);
 }
-.top-bar i{
+.top-bar i {
     font-size: 30px;
     color: var(--lightblack);
 }
 
-.top-bar span{
+.top-bar span {
     color: var(--lightblack);
 }
 
-.img-area{
+.img-area {
     -moz-box-shadow: 0px 6px 12px var(--lightbshadow);
     -webkit-box-shadow: 0px 6px 12px var(--lightbshadow);
     box-shadow: 0px 6px 12px var(--lightbshadow);
 }
 
-.song-details>p{
-    color:var(--lightblack);
-}
-
-.progress-area{
-    background: var(--loader);
-}
-
-.progress-area .progress-bar{
-    background: var(--lightblack);
-}
-
-.song-timer span{
+.song-details > p {
     color: var(--lightblack);
 }
 
-volume{
-    color: rgb(207, 123, 123)
-    
+.progress-area {
+    background: var(--loader);
+}
+
+.progress-area .progress-bar {
+    background: var(--lightblack);
+}
+
+.song-timer span {
+    color: var(--lightblack);
+}
+
+.volume {
+    color: rgb(207, 123, 123);
 }
 
 .volume i {
@@ -92,39 +90,38 @@ input[type="range"]::-webkit-slider-thumb:hover {
     border-color: var(--lightblack); /* Change border color on hover */
 }
 
-.controls i{
-    background: var(--lightblack);  
+.controls i {
+    background: var(--lightblack);
 }
 
-.controls .play-pause{
-
+.controls .play-pause {
     background: var(--lightblack);
     box-shadow: 0px 0px 5px var(--lightgreen);
 }
 
-.play-pause::before{
+.play-pause::before {
     background: var(--lightgreen);
 }
 
-.music-list{
-    box-shadow: 0px -5px 10px rgba(0,0,0,0.1);
+.music-list {
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
     background: var(--white);
 }
 
-.header .row{
+.header .row {
     color: var(--lightblack);
 }
 
-.header #close{
+.header #close {
     color: var(--lightblack);
 }
 
-.music-list ul li{
+.music-list ul li {
     color: var(--lightblack);
     border-bottom: 1px solid var(--lightblack);
 }
 
-.loader .stroke{
+.loader .stroke {
     background: var(--loader);
 }
 
@@ -136,7 +133,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
     50% {
         background: #93438b;
     }
-  
+
     100% {
         background: #87267a;
     }
@@ -145,40 +142,48 @@ input[type="range"]::-webkit-slider-thumb:hover {
 #time {
     text-shadow: 2px 2px 1px var(--lightgreen);
     color: var(--lightblack);
-  }
-  #date {
+}
+#date {
     text-shadow: 2px 2px 1px var(--lightgreen);
     color: var(--lightblack);
-  }
-  #quote{
+}
+#quote {
     text-shadow: 2px 2px 1px var(--lightgreen);
     color: var(--lightblack);
-  } 
-  #author {
+}
+#author {
     text-shadow: 2px 2px 1px var(--lightgreen);
     color: var(--lightblack);
-  }
+}
+#title-name {
+    text-shadow: 2px 2px 1px var(--lightgreen);
+    color: var(--lightblack);
+}
+#user {
+    text-shadow: 2px 2px 1px var(--lightgreen);
+    color: var(--lightblack);
+}
 
-  .bi-badge-tm-fill:hover{
+.bi-badge-tm-fill:hover {
     fill: red;
     cursor: pointer;
 }
-.bi-mic-fill:hover{
+.bi-mic-fill:hover {
     fill: red;
     cursor: pointer;
 }
-.bi-mic-fill{
+.bi-mic-fill {
     fill: var(--lightblack);
 }
-.bi-badge-tm-fill{
+.bi-badge-tm-fill {
     fill: var(--lightblack);
 }
-.bi-volume-up-fill{
+.bi-volume-up-fill {
     fill: var(--lightblack);
 }
-#volume_show{
+#volume_show {
     color: var(--lightblack);
 }
-.bi-volume-up-fill:hover{
+.bi-volume-up-fill:hover {
     fill: red;
 }
