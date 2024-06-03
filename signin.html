@@ -15,7 +15,7 @@
 					<input type="text" id="name" required autofocus>
 					<label>Enter your Name</label>
 				</div>
-				<a id="a-btn-musicplayer" href="./music-player.html">Enter Music Player</a>
+				<a id="a-btn-musicplayer" href="#">Enter Music Player</a>
 				<div class="register">
 					<p>Want to know more? <a target="_blank" href="https://github.com/ritikatomar04">Visit Github</a>
 					</p>
@@ -33,6 +33,17 @@
 						localStorage.setItem('userName', name);
 						document.getElementById('a-btn-musicplayer').click();
 					}
+				}
+			});
+
+			document.getElementById('a-btn-musicplayer').addEventListener('click', function(event) {
+				event.preventDefault();
+				var name = document.getElementById('name').value;
+				if (name === '') {
+					alert('Please enter your name!');
+				} else {
+					localStorage.setItem('userName', name);
+					window.location.href = "./music-player.html";
 				}
 			});
 		</script>
